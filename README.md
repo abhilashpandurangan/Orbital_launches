@@ -14,7 +14,7 @@ python3 launch_scrap.py
 
 ## Requirements
 
-1. Python3+
+1. Python3
 2. pandas
 3. datetime
         
