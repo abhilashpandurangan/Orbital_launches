@@ -132,5 +132,7 @@ if __name__ == '__main__':
     req_dict = generate_dict(unique_dates)
     
     data = pd.DataFrame.from_dict(req_dict, orient='index',columns = None)
+    data.index.name = 'date'
+    data.columns =['value']
     #save as filename
-    data.to_csv(FILENAME, header=False)
+    data.to_csv(FILENAME)
