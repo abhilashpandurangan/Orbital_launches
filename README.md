@@ -9,4 +9,13 @@ SAGE   Project   -   Web   Scraping   Assignment
 ```console
 python3 launch_scrap.py 
 
+```
+
+
+## Requirements
+
+1. Python3+
+2. pandas
+3. datetime
+        
 
